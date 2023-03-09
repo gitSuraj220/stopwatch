@@ -1,0 +1,65 @@
+body {
+    background: #09b77c;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    background: url(https://t3.ftcdn.net/jpg/02/90/89/76/360_F_290897614_7RdAsk2GmumcGWZ2qklmV74hKlNmznSx.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container {
+    width: 600px;
+    /* border: 3px solid black; */
+    margin: 300px auto;
+    text-align: center;
+  }
+  span{
+    color: antiquewhite;
+    font-size: 100px;
+    font-weight: 700;
+  }
+  span #minute{
+    color: aquamarine;
+  }
+ 
+
+  button{
+    width: 150px;
+    border-radius: 10px;
+    border-color: red;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    font-style: normal;
+  }
+  button:hover{
+    cursor: pointer;
+    animation: linear .3s;
+  }
+  button:nth-child(1){
+    background-color: green;
+
+
+  }
+  button:nth-child(2){
+    background-color: red;
+
+  }
+  button:nth-child(3){
+    background-color: orange;
+
+  }
+  span:nth-child(1){
+    color: royalblue ;
+}
+span:nth-child(2){
+    color: rgb(60, 200, 32);
+}
+span:nth-child(3){
+    color: #cc278a;
+}
+footer{
+    color: aliceblue;
+    font-weight: 400px;
+    margin-top: 30px;
+    
+}
