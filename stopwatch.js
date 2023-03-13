@@ -1,14 +1,14 @@
-// Created variables for second,Minute,Buttons
 var seconds = 00;
 var minute = 00;
+// For Countdown
 var addseconds = document.getElementById("seconds");
 var addminute = document.getElementById("minute");
+// For Buttons
 var start = document.getElementById("start");
 var stop = document.getElementById("stop");
 var reset = document.getElementById("reset");
 var interval;
 
-// Timer Function for Running Seconds,Minute
 function startTimer() {
     seconds++;
     
@@ -31,18 +31,17 @@ function startTimer() {
 
 }
 
-// Start Button Function
+
 start.onclick = function () {
     if (interval) {
       clearInterval(interval);
     }
     interval = setInterval(startTimer,1000);
   };
-// Stop Button Function
   stop.onclick = function () {
     clearInterval(interval);
   };
-//   Reset Button Function
+  
   reset.onclick = function () {
     clearInterval(interval);
     minute = "00";
