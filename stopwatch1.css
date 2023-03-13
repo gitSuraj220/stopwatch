@@ -5,6 +5,7 @@ body {
     background: url(https://t3.ftcdn.net/jpg/02/90/89/76/360_F_290897614_7RdAsk2GmumcGWZ2qklmV74hKlNmznSx.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+     background-position:center;
   }
 /* This section contains Body of Stopwatch */
   .container {
